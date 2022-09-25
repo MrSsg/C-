@@ -28,6 +28,9 @@
     <Filter Include="源文件\分支与循环\分支语句">
       <UniqueIdentifier>{bdfc68f3-1a0e-43e2-b0c2-6099093a385e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\数组">
+      <UniqueIdentifier>{6debc431-e79b-4972-8efd-cfd573aca961}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\1、函数.c">
@@ -90,9 +93,18 @@
     <ClCompile Include="递归练习.c">
       <Filter>源文件\函数</Filter>
     </ClCompile>
+    <ClCompile Include="数组.c">
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
+    <ClCompile Include="数组作为函数参数.c">
+      <Filter>源文件\数组</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -103,5 +115,13 @@
     <Image Include="..\photos\递归练习1流程图.png">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="..\photos\冒泡排序思想.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C语言学习笔记与实操.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

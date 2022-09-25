@@ -4,12 +4,14 @@
 //函数递归
 //程序调用自身的编程技巧称为递归 
 // 递归的主要思考方式在于：把大事化小
+
 //int main()
 //{
 //	printf("hehe\n");
 //	main();
 //	return 0;
 //}//栈溢出（stack overflow）;递归常见错误
+
 //内存被分为：栈区、堆区、静态区
 //栈区：局部变量、函数形参
 //堆区：动态开辟的内存 malloc  calloc
@@ -25,8 +27,9 @@
 //		print(n/10);
 //	}
 //	printf("%d\n", n % 10);
-//}
 //
+//}
+
 //int main()
 //{
 //	unsigned int num = 0;

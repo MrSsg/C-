@@ -158,14 +158,21 @@
     <ClCompile Include="..\while循环.c" />
     <ClCompile Include="..\函数与递归.c" />
     <ClCompile Include="..\练习题.c" />
+    <ClCompile Include="数组.c" />
+    <ClCompile Include="数组作为函数参数.c" />
     <ClCompile Include="递归练习.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Add.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\photos\for循环执行逻辑.png" />
+    <Image Include="..\photos\冒泡排序思想.png" />
     <Image Include="..\photos\递归练习1流程图.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C语言学习笔记与实操.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

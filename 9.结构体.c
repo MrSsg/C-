@@ -22,7 +22,7 @@
 //	printf("修改后价格：%d元\n", b1.price);
 //	//利用地址打印出书的名字和价格
 //  struct Book* pb = &b1;//b1的地址
-//	printf("%s\n", (*pb). name );
+//	printf("%s\n", (*pb).name );
 //	printf("%d\n", (*pb).price);
 //	//另一种写法
 //	printf("%s\n", pb->name);

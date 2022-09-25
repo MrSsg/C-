@@ -3,6 +3,7 @@
 
 //1.写一个函数(不用临时变量)，计算字符串长度
 
+//方法1
 //int my_strlen(char* str)
 //{
 //	int count = 0;
@@ -14,6 +15,7 @@
 //return count;
 //}
 
+//方法2
 //int my_strlen(char* str)
 //{
 //	if (*str != '\0')
@@ -23,10 +25,10 @@
 //	else
 //		return 0;
 //}
-//
+
 //int main()
 //{
-//	char arr[] = "bit";
+//	char arr[] = "bit"; 
 //
 //	//模拟实现strlen函数
 //	int len = my_strlen(arr);
@@ -38,29 +40,31 @@
 //递归与迭代
 
 //2.求n的阶乘
-int Fac1(int n)
-{
-	int i = 0;
-	int ret = 1;
-	for (i = 1; i <= n;i++)
-	{
-		ret *= i;
-	}
-	return ret;
-}
-
-int Fac2(int n)
-{
-	if (n <= 1)
-		return 1;
-	else
-		return n * Fac2(n - 1);
-}
-int main()
-{
-	int n = 0;
-	int ret = 0;
-	scanf("%d", &n);
-	ret = Fac2(n);//循环的方式
-	printf("%d\n", ret);
-}
+//int Fac1(int n)
+//{
+//	int i = 0;
+//	int ret = 1;
+//	for (i = 1; i <= n;i++)
+//	{
+//		ret *= i;
+//	}
+//	return ret;
+//}
+//
+//int Fac2(int n)
+//{
+//	if (n <= 1)
+//		return 1;
+//	else
+//		return n * Fac2(n - 1);
+//}
+//int main()
+//{
+//	int n = 0;
+//	int ret = 0;
+//	scanf("%d", &n);
+//	ret = Fac2(n);//循环的方式
+//	printf("%d\n", ret);
+//	
+//	return 0;
+//}
