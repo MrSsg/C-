@@ -158,6 +158,8 @@
     <ClCompile Include="..\while循环.c" />
     <ClCompile Include="..\函数与递归.c" />
     <ClCompile Include="..\练习题.c" />
+    <ClCompile Include="三子棋函数定义.c" />
+    <ClCompile Include="三子棋的实现.c" />
     <ClCompile Include="数组.c" />
     <ClCompile Include="数组作为函数参数.c" />
     <ClCompile Include="递归练习.c" />
@@ -165,6 +167,7 @@
   <ItemGroup>
     <ClInclude Include="..\Add.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="三子棋.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\photos\for循环执行逻辑.png" />
